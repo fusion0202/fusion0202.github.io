@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pyhthon IDE:Rodeo on Gentoo Linux
+title: Python IDE:Rodeo on Gentoo Linux
 ---
 
 ### node.jsのインストール
@@ -65,6 +65,16 @@ jupyter、pip、pandasの３つが必要である。
 
     sudo emerge jupyter dev-python/pip pandas
     
-    
-    
-    
+　　  　　  
+### Rodeoのビルドと実行　
+　  
+Rodeoプロジェクトの https://github.com/yhat/rodeo にあるcontributing.mdを参考にして、以下のコマンドを順次実行する。
+　  
+    sudo emerge nodejs
+    sudo npm install electron-prebuilt -g
+    git clone https://github.com/yhat/rodeo.git
+    cd rodeo
+    npm install
+    npm run build
+    npm start
+
