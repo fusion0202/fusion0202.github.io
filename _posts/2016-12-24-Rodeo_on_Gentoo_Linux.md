@@ -70,7 +70,6 @@ jupyter、pip、pandasの３つが必要である。
 　  
 Rodeoプロジェクトの https://github.com/yhat/rodeo にあるcontributing.mdを参考にして、以下のコマンドを順次実行する。
 　  
-    sudo emerge nodejs  
     sudo npm install electron-prebuilt -g  
     git clone https://github.com/yhat/rodeo.git  
     cd rodeo  
