@@ -69,10 +69,12 @@ jupyter、pip、pandasの３つが必要である。
 
     sudo emerge jupyter dev-python/pip pandas
     
-　　  　　  
+　  
+   
 ### Rodeoのビルドと実行　
 　  
-Rodeoプロジェクトの https://github.com/yhat/rodeo にあるcontributing.mdを参考にして、以下のコマンドを順次実行する。
+Rodeoプロジェクトの https://github.com/yhat/rodeo にあるcontributing.mdを参考にした。  
+以下のコマンドを順次実行する。
 
     sudo npm install electron-prebuilt -g  
     git clone https://github.com/yhat/rodeo.git  
