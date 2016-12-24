@@ -2,7 +2,11 @@
 layout: post
 title: Python IDE:Rodeo on Gentoo Linux
 ---
+　  
+   
+![Rodeo](http://blogs.c.yimg.jp/res/blog-4e-0e/igproj_fusion/folder/533738/83/20438583/img_0?1482460084)
 
+  
 ### node.jsのインストール
 
 Gentooパッケージの最新バージョン（unstable）をインストールする。  
@@ -78,4 +82,4 @@ Rodeoプロジェクトの https://github.com/yhat/rodeo にあるcontributing.m
     npm start  
  
  
-![Rodeo](http://blogs.c.yimg.jp/res/blog-4e-0e/igproj_fusion/folder/533738/83/20438583/img_0?1482460084)
+
