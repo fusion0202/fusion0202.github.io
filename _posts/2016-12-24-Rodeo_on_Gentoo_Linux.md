@@ -3,8 +3,8 @@ layout: post
 title: Pyhthon IDE:Rodeo on Gentoo Linux
 ---
 
-node.jsのインストール
-=
+### node.jsのインストール
+
 Gentooパッケージの最新バージョン（unstable）をインストールする。  
 
 /etc/portage/package.keywords/rodeoに以下を記述。  
@@ -25,8 +25,8 @@ Gentooパッケージの最新バージョン（unstable）をインストール
     sudo emerge openssh qtnetwork nodejs
     
     
-Rodeo実行に必須のPythonパッケージのインストール
-=
+### Rodeo実行に必須のPythonパッケージのインストール
+
 
 jupyter、pip、pandasの３つが必要である。
 
