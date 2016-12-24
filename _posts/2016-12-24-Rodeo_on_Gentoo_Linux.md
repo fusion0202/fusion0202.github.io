@@ -73,7 +73,7 @@ jupyter、pip、pandasの３つが必要である。
    
 ### Rodeoのビルドと実行　
 　  
-Rodeoプロジェクトの (https://github.com/yhat/rodeo) にあるcontributing.mdを参考にした。  
+GitHubの[Rodeoプロジェクト](https://github.com/yhat/rodeo) にあるcontributing.mdを参考にした。  
 以下のコマンドを順次実行する。
 
     sudo npm install electron-prebuilt -g  
