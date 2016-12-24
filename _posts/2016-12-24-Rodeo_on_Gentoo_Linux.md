@@ -78,3 +78,4 @@ Rodeoプロジェクトの https://github.com/yhat/rodeo にあるcontributing.m
     npm start  
  
  
+ (http://imgur.com/a/FIY5p)
