@@ -50,5 +50,21 @@ jupyter、pip、pandasの３つが必要である。
     =dev-python/nbconvert-4.2.0 ~amd64
     =dev-python/jupyter_client-4.4.0 ~amd64
     =dev-python/ipython_genutils-0.1.0 ~amd64
-    =dev-python/jupyter_core-4.2.0 ~amd64
+    =dev-python/jupyter_core-4.2.0 ~amd64　
+ 
+　   
+/etc/portage/package.use/rodeoの設定：  
 
+    >=dev-python/numpy-1.10.4 lapack
+    >=dev-lang/python-2.7.12:2.7 sqlite
+    >=dev-lang/python-3.4.5 sqlite
+    >=dev-libs/c-blosc-1.3.5 hdf5　
+    
+　  
+以上の設定を行った後、
+
+    sudo emerge jupyter dev-python/pip pandas
+    
+    
+    
+    
