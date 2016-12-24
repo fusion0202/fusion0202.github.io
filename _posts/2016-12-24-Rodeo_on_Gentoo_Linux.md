@@ -10,8 +10,6 @@ Gentooパッケージの最新バージョン（unstable）をインストール
 /etc/portage/package.keywords/rodeoに以下を記述。  
 
     =net-libs/nodejs-7.2.0 ~amd64  
-    # required by net-libs/nodejs-7.2.0::gentoo  
-    # required by nodejs (argument)  
     =dev-libs/libuv-1.10.0 ~amd64  
     
 これにより依存パッケージopensslが“bindist”フラグを無効にして再インストールされるのだが、関連パッケージ：qtnetworkとopensshの“bindist”フラグ”が有効になっているために、不整合が生じる。  
@@ -34,85 +32,21 @@ jupyter、pip、pandasの３つが必要である。
 
 /etc/portage/package.keywords/rodeoの設定：  
 
-    # required by dev-python/jupyter-1.0.0-r1::gentoo
-    # required by jupyter (argument)
     =dev-python/jupyter_console-5.0.0 ~amd64
-    # required by dev-python/notebook-4.2.3::gentoo
-    # required by dev-python/ipyparallel-5.2.0::gentoo
-    # required by dev-python/ipython-5.1.0::gentoo[smp]
-    # required by dev-python/qtconsole-4.2.1::gentoo
-    # required by dev-python/jupyter-1.0.0-r1::gentoo
-    # required by jupyter (argument)
     =dev-python/traitlets-4.3.1 ~amd64
-    # required by dev-python/ipykernel-4.5.0::gentoo
-    # required by dev-python/ipyparallel-5.2.0::gentoo
-    =dev-python/ipython-5.1.0 ~amd64
-    # required by dev-python/ipython-5.1.0::gentoo
-    # required by dev-python/ipyparallel-5.2.0::gentoo
     =dev-python/prompt_toolkit-1.0.3 ~amd64
-    # required by jupyter (argument)
     =dev-python/jupyter-1.0.0-r1 ~amd64
-    # required by dev-python/nbconvert-4.2.0::gentoo
-    # required by dev-python/notebook-4.2.3::gentoo
-    # required by dev-python/ipyparallel-5.2.0::gentoo
-    # required by dev-python/ipython-5.1.0::gentoo[smp]
-    # required by dev-python/qtconsole-4.2.1::gentoo
-    # required by dev-python/jupyter-1.0.0-r1::gentoo
-    # required by jupyter (argument)
     =dev-python/entrypoints-0.2.1 ~amd64
-    # required by dev-python/widgetsnbextension-1.2.6::gentoo
-    # required by dev-python/ipywidgets-5.2.2::gentoo
-    # required by dev-python/jupyter-1.0.0-r1::gentoo
-    # required by jupyter (argument)
     =dev-python/notebook-4.2.3 ~amd64
-    # required by dev-python/notebook-4.2.3::gentoo
-    # required by dev-python/ipyparallel-5.2.0::gentoo
-    # required by dev-python/ipython-5.1.0::gentoo[smp]
-    # required by dev-python/qtconsole-4.2.1::gentoo
-    # required by dev-python/jupyter-1.0.0-r1::gentoo
-    # required by jupyter (argument)
     =dev-python/nbformat-4.1.0 ~amd64
-    # required by dev-python/ipywidgets-5.2.2::gentoo
-    # required by dev-python/jupyter-1.0.0-r1::gentoo
-    # required by jupyter (argument)
     =dev-python/widgetsnbextension-1.2.6 ~amd64
-    # required by dev-python/jupyter-1.0.0-r1::gentoo
-    # required by jupyter (argument)
     =dev-python/ipywidgets-5.2.2 ~amd64
-    # required by dev-python/ipython-5.1.0::gentoo[python_targets_python2_7]    
-    # required by dev-python/ipyparallel-5.2.0::gentoo
     =dev-python/backports-shutil_get_terminal_size-1.0.0-r1 ~amd64
-    # required by dev-python/ipywidgets-5.2.2::gentoo
-    # required by dev-python/jupyter-1.0.0-r1::gentoo
-    # required by jupyter (argument)
     =dev-python/ipykernel-4.5.0 ~amd64
-    # required by dev-python/ipython-5.1.0::gentoo[qt4]
-    # required by dev-python/ipyparallel-5.2.0::gentoo
     =dev-python/qtconsole-4.2.1 ~amd64
-    # required by dev-python/ipython-5.1.0::gentoo[smp]
-    # required by dev-python/qtconsole-4.2.1::gentoo
-    # required by dev-python/jupyter-1.0.0-r1::gentoo
-    # required by jupyter (argument)
     =dev-python/ipyparallel-5.2.0 ~amd64
-    # required by dev-python/notebook-4.2.3::gentoo
-    # required by dev-python/ipyparallel-5.2.0::gentoo
-    # required by dev-python/ipython-5.1.0::gentoo[smp]
-    # required by dev-python/qtconsole-4.2.1::gentoo
-    # required by dev-python/jupyter-1.0.0-r1::gentoo
-    # required by jupyter (argument)
     =dev-python/nbconvert-4.2.0 ~amd64
-    # required by dev-python/qtconsole-4.2.1::gentoo
-    # required by dev-python/ipython-5.1.0::gentoo[qt4]
-    # required by dev-python/ipyparallel-5.2.0::gentoo
     =dev-python/jupyter_client-4.4.0 ~amd64
-    # required by dev-python/notebook-4.2.3::gentoo
-    # required by dev-python/ipyparallel-5.2.0::gentoo
-    # required by dev-python/ipython-5.1.0::gentoo[smp]
-    # required by dev-python/qtconsole-4.2.1::gentoo
-    # required by dev-python/jupyter-1.0.0-r1::gentoo
-    # required by jupyter (argument)
     =dev-python/ipython_genutils-0.1.0 ~amd64
-    # required by dev-python/jupyter-1.0.0-r1::gentoo
-    # required by jupyter (argument)
     =dev-python/jupyter_core-4.2.0 ~amd64
 
