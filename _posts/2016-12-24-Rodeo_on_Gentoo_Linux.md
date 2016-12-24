@@ -24,7 +24,9 @@ Gentooパッケージの最新バージョン（unstable）をインストール
 
     sudo emerge openssh qtnetwork nodejs
     
-    
+  
+  
+  
 ### Rodeo実行に必須のPythonパッケージのインストール
 
 
